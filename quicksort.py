@@ -1,3 +1,4 @@
+import random
 # Essa funcao define o ultimo elemento como pivor,
 # e o coloca em sua posicao ordenada no vetor,
 # e posiciona todos os elemento menores que o pivor a esquerda e
@@ -26,7 +27,13 @@ def quickSort(arr,lo,hi):
         quickSort(arr, lo, part-1)
         quickSort(arr, part+1, hi)
 
-arr = [10,7,8,9,1,5, 11, 10, 5, 1]
+arr = []
+qtdElementosVetor = 10		#----> Define o tamanho do vetor de numeros aleatorios
+
+for x in range(qtdElementosVetor):
+    n = random.randint(1,1000)
+    arr.append(n)
+    
 n = len(arr)
 quickSort(arr,0,n-1)
 
