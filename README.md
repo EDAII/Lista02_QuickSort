@@ -5,7 +5,7 @@
 
 Alunos 		| Matricula
 ---------------	| ------
-Andrew Lucas   	| 16/0023921 
+Andrew Lucas   	| 16/0023921
 Nilo Mendonca 	| 16/0037522
 
 

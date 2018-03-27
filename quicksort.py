@@ -64,7 +64,7 @@ def plotarGrafico(vetorQuickSort, vetorTempo):
 ###################################################################
 
 for x in range(5):
-	n = x*50000			#tamanho do vetor
+	n = x*10000			#tamanho do vetor
 	arr = geraVetor(n)		#Gera vetor para ordenacao
 
 	inicio = time.time()		#Inicia a contagem de tempo
