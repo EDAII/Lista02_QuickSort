@@ -20,9 +20,9 @@ O objetivo do programa e a implementacao do algoritmo de ordenacao QuickSort, qu
 
 #### Para executar
 
-'''
+<pre><code>
     git clone https://github.com/andrewlucasgs/quickSort-EDA2.git
     cd quickSort-EDA2
     pip install -r requeriments.txt
     python3 quicksort.py
-'''
+<pre><code>
